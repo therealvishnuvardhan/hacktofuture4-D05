@@ -4,7 +4,7 @@ An AI-driven DevOps system leveraging a Multi-Agent architecture to autonomously
 
 ---
 
-## 🛑 Problem Statement / Idea
+##  Problem Statement / Idea
 
 **What is the problem?**
 Modern CI/CD pipelines fail constantly due to trivial syntax errors, missing dependencies, or breaking upstream changes. Developers spend countless hours context-switching, reading massive unstructured error logs, and hunting down the exact line of code that caused the build to break. 
@@ -17,7 +17,7 @@ DevOps Engineers, SREs, and Software Developers working in fast-paced continuous
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 
 **What are you building?**
 We built an **Agentic CI/CD Repair** pipeline. When a GitHub Actions build fails, a native hook extracts the logs and `git diff`, firing them to our backend. 
@@ -31,7 +31,7 @@ Instead of a human reading the logs, a **Multi-Agent AI Pipeline** (Detective �
 
 ---
 
-## 🔥 Features
+##  Features
 
 - **Automated Webhook Triggers:** Native CLI hooks safely bypass Docker-in-Docker Github action limitations.
 - **RAG Memory:** Utilizing PostgreSQL with the `pgvector` extension, the AI remembers past bugs and how they were solved.
@@ -41,7 +41,7 @@ Instead of a human reading the logs, a **Multi-Agent AI Pipeline** (Detective �
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML5, CSS3, Vanilla JS
 - **Backend:** FastAPI (Python), Uvicorn, Async handlers
@@ -51,7 +51,7 @@ Instead of a human reading the logs, a **Multi-Agent AI Pipeline** (Detective �
 
 ---
 
-## 🚀 Project Setup Instructions
+##  Project Setup Instructions
 
 Follow these steps to run the stack locally. Ensure you have Docker Desktop and [Ollama](https://ollama.com/) installed on your machine.
 
